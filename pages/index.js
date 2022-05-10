@@ -5,8 +5,8 @@ import SearchTopic from "./SearchTopic";
 export default function Home() {
   return (
     <div>
+     <SearchTopic />
       <AddTopic />
-      <SearchTopic />
     </div>
   );
 }
