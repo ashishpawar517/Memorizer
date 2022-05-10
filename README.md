@@ -36,7 +36,7 @@ I wanted to have an app to store new things I have found on the interent and not
 
 ## Technologies
 
-I used `nextjs` and `react-boostrap`
+I used `nextjs` , `react-boostrap` and `react-bootstrap-icons`.
 
 ## Setup And Usage
 
