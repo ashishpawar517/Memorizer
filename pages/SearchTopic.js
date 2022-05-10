@@ -7,6 +7,7 @@ import {
   InputGroup,
   ListGroup,
 } from "react-bootstrap";
+import { Search } from "react-bootstrap-icons";
 import styles from "../styles/SearchTopic.module.css";
 
 function SearchTopic(props) {
@@ -33,9 +34,11 @@ function SearchTopic(props) {
           <InputGroup className="mb-3" onChange={search}>
             <Form.Control
               onChange={search}
-              placeholder="Exact Topic name, Topic type or fuzzy description "
+              placeholder="Enter topic type, topic name or fuzzy description keywords."
             />
-            <Button variant="outline-secondary">Search</Button>
+            <InputGroup.Text>
+              <Search />
+            </InputGroup.Text>
           </InputGroup>
           <ListGroup>
             {hits.map((hit) => (
