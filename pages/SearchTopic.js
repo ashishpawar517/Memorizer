@@ -15,7 +15,7 @@ function SearchTopic(props) {
   const search = async (event) => {
     const q = event.target.value;
 
-    if (q.length > 2) {
+    if (q.length >= 2) {
       const params = new URLSearchParams({ q });
 
       const res = await fetch("/api/search?" + params);
