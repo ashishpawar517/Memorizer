@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardTitle {
+  font-weight: 300;
+  text-align: "center";
+}
+.form {
+  width: 330px;
+  margin: 20px;
+}
+
+.btn {
+  font-size: 14px;
+  margin-top: 20px;
+  width: 100%;
+}
+.topmargin {
+  margin-top: 10px;
+}
+.helptext {
+  text-align: center;
+  padding: 20px 0 0;
+}
