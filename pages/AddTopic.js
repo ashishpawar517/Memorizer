@@ -51,10 +51,13 @@ export default function AddTopic() {
                 📌 &nbsp;Topic Type
               </Form.Label>
               <Form.Control type="text" name="topicType" />
-              <Form.Label className={styles.topmargin}>
-                📌&nbsp;Topic Description
-              </Form.Label>
-              <Form.Control type="text" name="topicDescription" />
+
+              <Form.Group className="mb-3">
+                <Form.Label className={styles.topmargin}>
+                  📌&nbsp;Topic Description
+                </Form.Label>
+                <Form.Control as="textarea" rows={3} />
+              </Form.Group>
               <Button
                 variant="primary"
                 size="lg"
