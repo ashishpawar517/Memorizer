@@ -27,7 +27,7 @@ Access my site at [link](https://nextapp-with-redis-92y2ei57l-ashishpawar517.ver
 
 ## About The App
 
-Just a demo project to try and use material ui to create site like facebook.
+I wanted to have an app to store new things I have found on the interent and note it down somewhere and then later on just search it efficiently. So, I have built an for the same usecase. I have built an nextapp built on top of Redis which gives the superfast search ability.
 
 <!-- ## Screenshots
 
