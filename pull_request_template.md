@@ -1,34 +1,41 @@
-<!-- Thank you for contribution to this repo -->
+# Pull Request Template
 
-<!-- What does this PR Do -->
-## Bug / New Feature Description
+## Description
 
-    - clearly and concisely describe the Problem or 
-    - Added new Feature which is implemented.
+Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-## Root cause [ Optional / Only for Bug Fix PR ]
+Fixes # (issue)
 
-    - Briefly describes the root cause and analysis of the problem.
+## Type of change
 
-## Detailed Description
+Please delete options that are not relevant.
 
-    - Solution description how your code works and how it solves the above problem.
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
 
+## How Has This Been Tested?
 
-<!-- Where should reviewer start -->
-## Review [ Optional ]
-    - If you want any review request or something.
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
-<!-- Recommendations for how to test this or anything you're worried about -->
-## Testing - CI/CD 
-    - Any thoughts on How to test this.
-<!-- Link to the related Issues  -->
-## Issues 
-    - Link to the related Issues.
+- [ ] Test A
+- [ ] Test B
 
-<!-- Does anything need to be done ? (notify someone / other issues) before deploying -->
-## Other
-    - Other data you wanna say.
+**Test Configuration**:
+* Firmware version:
+* Hardware:
+* Toolchain:
+* SDK:
 
+## Checklist:
 
-<!-- Any GIF/EMoji describes how you feel about this PR -->
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] I have checked my code and corrected any misspellings
