@@ -54,7 +54,7 @@ List of contriubutors:
 
 - [Ashish Pawar](https://github.com/ashishpawar517)
 
-<!-- ## License
+## License
 
-MIT license @ [Ashish Pawar]()
- -->
+MIT license @ [Ashish Pawar](https://github.com/ashishpawar517/Memorizer/blob/main/LICENSE)
+
