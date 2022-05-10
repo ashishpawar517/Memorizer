@@ -36,7 +36,7 @@ I wanted to have an app to store new things I have found on the interent and not
 
 ## Technologies
 
-I used `nextjs` , `react-boostrap` and `react-bootstrap-icons`.
+I used `nextjs` , `react-boostrap` and `react-bootstrap-icons`. For Backend, I have used REDIS Database. I am using `redis-om` for object mapping. 
 
 ## Setup And Usage
 
