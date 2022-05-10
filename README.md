@@ -1,4 +1,5 @@
 <div align='center'>
+<img src=".github/logo_small.png"/>
 <h1> Memorizer </h1>
 A Nextjs app with Redis Database for superfast searching and instant notetaking.
   <br/>
