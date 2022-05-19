@@ -12,15 +12,17 @@ export default function AddTopic() {
 
     const form = new FormData(event.target);
     const formData = Object.fromEntries(form.entries());
-
+    console.log(JSON.stringify(formData));
     const res = await fetch("/api/addTopic", {
       body: JSON.stringify(formData),
       headers: {
         "Content-Type": "application/json",
+        Accept: "application/json",
       },
       method: "POST",
     });
     const result = await res.json();
+    console.log(result);
     setShow(true);
   };
   return (
@@ -52,12 +54,15 @@ export default function AddTopic() {
               </Form.Label>
               <Form.Control type="text" name="topicType" />
 
-              <Form.Group className="mb-3">
-                <Form.Label className={styles.topmargin}>
-                  📌&nbsp;Topic Description
-                </Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
+              <Form.Label className={styles.topmargin}>
+                📌&nbsp;Topic Description
+              </Form.Label>
+              <Form.Control
+                type="text"
+                as="textarea"
+                rows={3}
+                name="topicDescription"
+              />
               <Button
                 variant="primary"
                 size="lg"
