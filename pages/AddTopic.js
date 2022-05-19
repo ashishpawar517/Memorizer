@@ -12,12 +12,10 @@ export default function AddTopic() {
 
     const form = new FormData(event.target);
     const formData = Object.fromEntries(form.entries());
-    console.log(JSON.stringify(formData));
     const res = await fetch("/api/addTopic", {
       body: JSON.stringify(formData),
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json",
       },
       method: "POST",
     });
