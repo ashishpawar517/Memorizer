@@ -13,7 +13,7 @@ A Nextjs app with Redis Database for superfast searching and instant notetaking.
 
 ## Demo link:
 
-Access my site at [link](https://memorizer-jet.vercel.app/)
+Access my site at [link](https://memorizer-ashishpawar517.vercel.app/)
 
 ## Table of Content:
 
